@@ -7,6 +7,9 @@
     "start": "nodemon --watch ./src -e js src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engine": {
+    "node": "8.6.0"
+  },
   "author": "Nick Bryant",
   "license": "ISC",
   "devDependencies": {
