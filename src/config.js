@@ -8,8 +8,8 @@ const config = {
   NODE_ENV: process.env.NODE_ENV,
   LOG_LEVEL: process.env.LOG_LEVEL,
   GITHUB_API_TOKEN: process.env.GITHUB_API_TOKEN,
+  GITHUB_USERNAME: process.env.GITHUB_USERNAME,
 };
-console.log('config', config);
 
 requireEnvs(Object.keys(config));
 
